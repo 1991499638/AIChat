@@ -1,0 +1,57 @@
+# Ignore Next.js build output
+.next/
+
+# Ignore Node modules
+node_modules/
+
+# Ignore development server logs
+logs/
+
+# Ignore the .env.local file (your local environment variables)
+.env.local
+
+# Ignore environment files (commonly .env.* where * is the environment name)
+.env.*
+
+# Ignore IDE and editor specific files
+.idea/
+.vscode/
+*.sublime-*
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Ignore OS generated files
+ehthumbs.db
+
+# Ignore build output and logs from testing frameworks
+/build/
+/logs/
+
+# Ignore npm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore test coverage reports
+coverage/
+
+# Ignore Visual Studio Code config folder
+.vscode/
+
+# Ignore temporary and backup files
+*.swp
+*.bak
+*.save
+
+# Ignore Yarn 2 pnp files, untracked error logs
+.pnp.*
+.pnp.local
+
+# Ignore dependency directories (optional)
+packages/
+
+# Ignore Docker files (optional)
+Dockerfile
+docker-compose.yml
